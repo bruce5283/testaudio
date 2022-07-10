@@ -22,7 +22,7 @@ window.function = function (time, seq) {
 <p id="pre"></p>
 <button id="btn" onclick="playBuffer()">Start Timer</button>
 </div>
-<audio controls id = "audio" src = "https://www.mboxdrive.com/alarmsound.mp3" />
+<audio controls id = "audio" src = "https://mdn.github.io/webaudio-examples/media-source-buffer/viper.mp3" />
 <style>
 
 .container {
