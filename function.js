@@ -8,6 +8,7 @@ window.function = function (time, seq) {
   align = "center";
   fsize = "20";
   width = "100";
+  height = "100";
 
   let ht = `<!DOCTYPE html>
 <html>
@@ -27,6 +28,7 @@ window.function = function (time, seq) {
 .container {
 text-align: center;
 width: ${width}vw;
+height:${height}vh;
 }
 
 #btn {
