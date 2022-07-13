@@ -22,7 +22,7 @@ window.function = function (time, seq) {
 <p id="pre"></p>
 <button id="btn" onclick="playBuffer()">Start Timer</button>
 </div>
-<audio controls id = "audio" src = "https://dobrian.github.io/cmp/topics/sample-recording-and-playback-with-web-audio-api/freejazz.wav" />
+<audio controls id = "audio" src = "https://dobrian.github.io/cmp/topics/sample-recording-and-playback-with-web-audio-api/freejazz.wav"/>
 <style>
 
 .container {
