@@ -77,7 +77,7 @@ let sourceBuffer;
 
 const ctx = new AudioContext();
 
-fetch("./sounds/alarmsound.mp3")
+fetch(url)
   .then(response => response.arrayBuffer())
   .then(arrayBuffer => ctx.decodeAudioData(arrayBuffer))
   .then(audioBuffer => {
