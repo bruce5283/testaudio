@@ -8,7 +8,7 @@ window.function = function (time, seq) {
   align = "center";
   fsize = "20";
   width = "100";
-  height = "25";
+  height = "10";
 
   let ht = `<!DOCTYPE html>
 <html>
@@ -71,6 +71,7 @@ let time = ${time};
 let seq = ${seq};
 
 const mediaElement = document.getElementById("audio");
+mediaElement.controls = false;
 const url = mediaElement.src;
 let sourceBuffer;
 
