@@ -8,7 +8,7 @@ window.function = function (time, seq) {
   align = "center";
   fsize = "20";
   width = "100";
-  height = "100";
+  height = "50";
 
   let ht = `<!DOCTYPE html>
 <html>
